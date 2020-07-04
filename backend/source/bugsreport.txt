@@ -1,0 +1,4 @@
+C:\*****\backend\envir\Lib\site-packages\django\core\servers
+	error que ponia cancelacion de transferencia con el DB se "reparo" temporalmente hasta nuevo bugfix de python, el error se
+	modifico cambiando el codigo de return... por "return ConnectionAbortedError"
+	cualquier falla checar este codigo por incoveniencia.

@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+
+{% block content %}
+<p>aqui bien mamalon</p>
+{% for post in object_list %}
+    <li>
+        <h1><a  href="{% url 'taco' post.pk %}">{{post.titulo}}</a></h1>
+        
+    </li>
+{% endfor %}
+{% endblock %}
